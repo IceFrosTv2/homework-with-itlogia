@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", serif;
+}
+
+.main {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding: 35px 0 33px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 282px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation_item {
+    margin-right: 51px;
+    display: inline-block;
+}
+
+.navigation_item a {
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+/*________________________________________________*/
+.main-page {
+    padding: 151px 0 205px 0;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: left;
+    max-width: 452px;
+}
+
+.favourite {
+    margin: 0 14px 0 0;
+    vertical-align: bottom;
+}
+
+.main-info {
+    margin: 80px 0 101px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.button {
+    background-color: transparent;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    width: 224px;
+    padding: 22px;
+    font-size: 16px;
+}
+
+.button.white-button {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+/*________________________________________________*/
+
+.basic-info {
+    margin: 140px auto;
+}
+
+.basic-info h2 {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    margin-bottom: 68px;
+}
+
+.advantages {
+    list-style-type: none;
+}
+
+.advantages .favourite {
+    vertical-align: middle;
+}
+
+.advantages li {
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    margin-bottom: 15px;
+}
+
+/*________________________________________________*/
+.text-lesson {
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.text-container {
+    width: 996px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px 0 44px 0;
+    text-align: center;
+    margin: 140px auto;
+}
+
+.text-container h2 {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.text {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    text-align: center;
+    padding: 15px 0;
+    max-width: 592px;
+    margin: 0 auto;
+}
+
+.button.purple-button {
+    font-size: 16px;
+    color: rgb(177, 128, 228);
+    font-weight: bold;
+    border: 2px solid rgb(177, 128, 228);
+    margin-top: 25px;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 46px;
+    text-align: center;
+}
